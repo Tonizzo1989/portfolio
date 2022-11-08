@@ -1,3 +1,83 @@
+/* App Css */
+
+@font-face {
+  font-family: Centra;;
+  src: url('./assets/font/bold');
+  font-weight:700 ;
+}
+
+@font-face {
+  font-family: Centra;;
+  src: url('./assets/font/medium');
+  font-weight:500 ;
+}
+
+@font-face {
+  font-family: Centra;;
+  src: url('./assets/font/bold');
+  font-weight:400 ;
+}
+
+/* Default Css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body{
+  font-weight: 400;
+  overflow-x:hidden;
+  position: relative;
+  background-color: #121212 !important; 
+  color: #fff !important;
+  font-family: Centra, sans-serif !important;
+
+}
+
+h1,h2, h3, h4, h5, h6{
+  margin:0;
+  padding:0;
+  line-height:normal
+}
+
+nav.navbar {
+padding: 10px 0;
+position: fixed;
+width: 100%;
+top:0;
+z-index: 9999;
+transition:0.32 ease-in-out;
+}
+
+nav.navbar.scrolled {
+  padding:0px 0;
+  background-color: #121212;
+}
+
+nav.navbar a.navbar-brand{
+  width:9%
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  color:#fff !important;
+  letter-spacing: 0.8;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
